@@ -1,0 +1,31 @@
+{
+  "name": "twitterchallenge",
+  "version": "1.0.0",
+  "description": "An app that uses the Twitter API to display the time & content of the last 25 tweets for any given Twitter handle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethanrubio/twitterchallenge.git"
+  },
+  "author": "Ethaniel Rubio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ethanrubio/twitterchallenge/issues"
+  },
+  "homepage": "https://github.com/ethanrubio/twitterchallenge#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "grunt": "^0.4.5",
+    "morgan": "^1.7.0",
+    "twitter": "^1.2.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^0.11.1"
+  }
+}
