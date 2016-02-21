@@ -1,0 +1,25 @@
+{
+  "name": "twitterchallenge",
+  "description": "An app that uses the Twitter API to display the time & content of the last 25 tweets for any given Twitter handle",
+  "main": "index.js",
+  "authors": [
+    "Ethaniel Rubio"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ethanrubio/twitterchallenge",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "^1.2.3",
+    "Materialize": "materialize#^0.97.5",
+    "handlebars": "^4.0.5",
+    "moment": "^2.11.2"
+  }
+}

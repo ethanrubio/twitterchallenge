@@ -1,0 +1,17 @@
+.icon {
+  padding-right: 15px;
+}
+
+.main {
+  margin: 5%;
+}
+
+a {
+  color: #3F51B5
+}
+
+svg {
+  width: 3%;
+  height: 3%;
+  fill: white;
+}

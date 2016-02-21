@@ -21,7 +21,8 @@
     "express": "^4.13.4",
     "grunt": "^0.4.5",
     "morgan": "^1.7.0",
-    "twitter": "^1.2.5"
+    "twitter": "^1.2.5",
+    "twitter-node-client": "git+https://github.com/BoyCook/TwitterJSClient.git"
   },
   "devDependencies": {
     "grunt-contrib-concat": "^0.5.1",
