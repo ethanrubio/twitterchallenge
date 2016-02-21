@@ -24,11 +24,9 @@ var SearchView = Backbone.View.extend({
       data: {data: query},
       type:'POST',
       success: function(collection, response, options) {
-        console.log(collection)
+        console.log(collection);
         var profileView = new ProfileView(collection.models[0]);
         var tweetListView = new TweetListView(collection);
-        /*console.log(response);
-        console.log(options);*/
         }
       });
   }

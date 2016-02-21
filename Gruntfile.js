@@ -5,18 +5,18 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     concat: {
       dist: {
-        src: [''],
+        src: ['public/app/app.js', 'public/app/collections/Tweets.js', 'public/app/models/TweetModel.js', 'public/app/views/ProfileView.js', 'public/app/views/SearchView.js', 'public/app/views/TweetListView.js'],
         dest: 'dist/built.js',
       }
     },
     jshint: {
-      beforeconcat: [''],
+      beforeconcat: ['public/app/app.js', 'public/app/collections/Tweets.js', 'public/app/models/TweetModel.js', 'public/app/views/ProfileView.js', 'public/app/views/SearchView.js', 'public/app/views/TweetListView.js'],
       afterconcat: ['dist/built.js']
     },
     uglify: {
       my_target: {
         files: {
-          'client/dist/app.min.js': ['dist/built.js']
+          'public/dist/app.min.js': ['dist/built.js']
         }
       }
     }
